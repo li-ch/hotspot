@@ -1,0 +1,13 @@
+代码结构：
+1)main.c为应用程序源代码.
+2)hotspot.c为内核处理模块源代码.
+3)hashmap.h，vector.c vector.h 为内核处理用到的以来数据结构.
+4)Makefile为内核编译文件
+
+
+程序功能
+1）能够处理指定路径数据文件内的数据，并打印处理结果。
+
+补充说明：
+1)编译内核模块时可能会需要按照相关的依赖工具。
+yum install elfutils-libelf-devel
